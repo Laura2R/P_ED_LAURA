@@ -55,4 +55,19 @@ public class Calcular {
     public int multiplicar(int a, int b) {
         return a * b;
     }
+
+    /**
+     * <p>Divide dos números enteros.</p>
+     *
+     * @param a Dividendo.
+     * @param b Divisor.
+     * @return El cociente de la división como un número de punto flotante.
+     * @throws ArithmeticException Si se intenta dividir por cero.
+     */
+    public double dividir(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("No se puede dividir por cero");
+        }
+        return (double) a / b;
+    }
 }

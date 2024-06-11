@@ -24,5 +24,6 @@ public class P_ED_LAURA {
         System.out.println("Suma: " + calc.sumar(5, 3));
         System.out.println("Resta: " + calc.restar(5, 3));
         System.out.println("Multiplicación: " + calc.multiplicar(5, 3));
+        System.out.println("División: " + calc.dividir(10, 2));
     }
 }
