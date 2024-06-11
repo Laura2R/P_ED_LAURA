@@ -8,19 +8,21 @@ package com.mycompany.p_ed_laura;
  *
  * @author laura
  */
-
 /**
  * <h2>Clase con los métodos de la calculadora.</h2>
  */
 public class Calcular {
-     /**
-     * <p>Constructor por defecto de la clase Calcular.</p>
+
+    /**
+     * <p>
+     * Constructor por defecto de la clase Calcular.</p>
      */
     public Calcular() {
     }
 
     /**
-     * <p>Suma dos números enteros.</p>
+     * <p>
+     * Suma dos números enteros.</p>
      *
      * @param a Primer número entero.
      * @param b Segundo número entero.
@@ -31,7 +33,8 @@ public class Calcular {
     }
 
     /**
-     * <p>Resta dos números enteros.</p>
+     * <p>
+     * Resta dos números enteros.</p>
      *
      * @param a Primer número entero (minuendo).
      * @param b Segundo número entero (sustraendo).
@@ -39,5 +42,17 @@ public class Calcular {
      */
     public int restar(int a, int b) {
         return a - b;
+    }
+
+    /**
+     * <p>
+     * Multiplica dos números enteros.</p>
+     *
+     * @param a Primer número entero.
+     * @param b Segundo número entero.
+     * @return El producto de los dos números enteros.
+     */
+    public int multiplicar(int a, int b) {
+        return a * b;
     }
 }
